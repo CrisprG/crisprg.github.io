@@ -1,0 +1,77 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>project</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+  </head>
+  <body>    
+
+<!--ABOUT ME SECTION -->
+<div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="project.html">PL Assignment 1</a>
+  </div>
+  
+  <div id="main"> 
+    <button class="openbtn" onclick="openNav()">☰</button> 
+  </div>
+ 
+<section id="introduction" class="tm-section-pad-top">
+    <div class="container tm-container-gallery">
+        <div class="text-center col-12">
+          <img src="image0.jpg" class="center">
+            <h2 class="tm-section-title">About Me</h2>
+            <p class="description">
+              Hi my name is Seran, I'm a junior Computer Science student at California State University, Sacramento. <br>
+               I'm fascinated by computing and always looking for ways to learn, improve and expand my technical skills. <br>
+               I'm particularly interested in Cyber Security, AI and Software Engineering. 
+            </p>
+        </div>   
+        <h2 class="progl">Email: Sdiriba33@gmail.com</h2>
+        <h2 class="progl">Career Goals:</h2>
+        <p class="undprog">
+        <li class="undprog">Cyber Security </li>
+        <li class="undprog">Software Engineering</li>
+        <li class="undprog">AI </li>
+
+        <h2 class="progl">Programming Languages:</h2>
+        <p class="undprog"> </p>
+        <li class="undprog">JAVA</li>
+        <li class="undprog">C </li>
+        <li class="undprog">x86 ASSEMBLY </li>
+        <li class="undprog">PYTHON </li>
+        
+        <h2 class="progl"> Programming Languages I want to know/improve:</h2>
+        <p class="undprog"> </p>  
+        <li class="undprog">C++ </li>
+        <li class="undprog">C# </li>
+        <li class="undprog">Python </li>
+        <li class="undprog">Typescript </li>
+        <li class="undprog">Javascript </li>
+        <h2 class="progl"></h2>
+        <p class="undprog"> </p>
+        
+  </section>
+  <script>
+    function openNav() {
+      document.getElementById("mySidebar").style.width = "250px";
+    document.getElementById("mySidebar").style.height = "200px";
+    document.getElementById("main").style.marginLeft = "250px";
+    }
+    
+    function closeNav() {
+      document.getElementById("mySidebar").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
+  
+    
+    </script>
+</body>
+</html>
