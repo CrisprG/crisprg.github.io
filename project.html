@@ -50,7 +50,36 @@
             <li>A parser is a compiler or interpreter component that breaks data into smaller elements for easy translation into another language. </li>
 
           </div>
-          
+          <h2 class="project">PL Assignment 3</h2>
+    <P> 6. (30%) Exercise problem contribution. Using the Example "Every scientist is logician" (see Canvas ExecofProlog example) as a guide, to create a problem with following 4 parts and then give solution to your own problem. Post your problem ((a) - (c)) and solution ((d) - (e)) at your website to share with your classmates. (Note: You may scan/take a picture of hand drawn deduction tree or draw it with a tool digitally)</P>
+
+
+<P>csc(seran).          		  //Seran is a csc major.</P>
+  <P>java(seran).          		  //Seran knows java.</P>
+    <P>python(john).             	  //John knows python</P>
+      <P>undergrad(seran).                //Seran is an undergrad student. </P>
+        <P>phd(john).                    	 //John is a phd student.</P>
+
+
+      <P>(b)  (6%) Write a PROLOG representation of the following rule: (your at least 2 rules in English);</P>
+
+<P>knowjava(X) :- csc(X). 					//Every csc major knows java</P>
+<P>student(X) :- undergrad(X). 			//Every undergrad is a student. </P>
+<P>smart(X) :- phd(X). 				          //Every phd is smart</P>
+
+
+
+
+
+(c)  (4%) Write two PROLOG goal statements to search for answers: (also give 2 W questions in English), and at least one of  your goal statements should be a conjunction of two subgoals;</P>
+
+<P>?- java(X), undergrad(X). 		//Who is an undergrad and knows java?</P>
+<P>?- python(X), phd(X). 		//Who is a phd student and knows python?</P>
+<P>?- python(X).				//Who knows only python?</P>
+<P>?- java(X). 				//Who knows only java</P>
+
+<p>(10%) Run each given query in (c) using Prolog and then post the interactive sessions as part of your solution at your website;</P>
+
         </div>
     </section>
 
